@@ -1,0 +1,44 @@
+.popup-register{
+  padding-top: 30px;
+  position: fixed;
+  top: 100px;
+  left: 60px;
+  background-color: #FFFFFF;
+  width: 300px;
+  height: 500px;
+  border: 1px solid#E1E1E1;
+  border-radius: 6px;
+  box-shadow: 0 5px 4px 5px #e1e1e1;
+  .form-register{
+    margin-left: 20px;
+    width: 100%;
+    input{
+      border: 1px solid #000000;
+      border-radius: 4px;
+      &:focus{
+        border: 1px solid #F54B24;
+        outline: none;
+      }
+    }
+    p{
+      margin-bottom: 0;
+    }
+    div{
+      margin-bottom: 12px;
+    }
+  }
+.footer{
+    button{
+      background-color: #FFFFFF;
+      color: #F54B24;
+      border: 1px solid #F54B24;
+      outline: none;
+      border-radius: 4px;
+      margin-left: 8px;
+      &:hover{
+        color: #FFFFFF;
+        background-color: #F54B24;
+      }
+    }
+}
+}

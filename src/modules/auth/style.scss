@@ -1,0 +1,44 @@
+.auth{
+.header{
+
+}
+  .form{
+    h2{
+      color: #F54B24;
+    }
+    p{
+      margin-bottom: 0;
+    }
+    input{
+      color: #000000;
+      border: 1px solid #E1E1E1;
+      border-radius: 4px;
+      &:focus{
+        border: 1px solid #F54B24;
+        outline: none;
+      }
+    }
+    .forgot-password{
+      color: #1d72f1;
+      margin-top: 6px;
+      &:hover{
+        color: #F54B24;
+      }
+    }
+  }
+  .footer{
+    margin-top: 30px;
+    button{
+      background-color: #FFFFFF;
+      color: #F54B24;
+      border: 1px solid #F54B24;
+      outline: none;
+      border-radius: 4px;
+      margin-left: 8px;
+      &:hover{
+        color: #FFFFFF;
+        background-color: #F54B24;
+      }
+    }
+  }
+}

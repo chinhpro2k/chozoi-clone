@@ -1,0 +1,76 @@
+#forgot-password{
+  padding-top: 30px;
+  position: fixed;
+  top: 130px;
+  left: 45px;
+  background-color: #FFFFFF;
+  width: 300px;
+  //height: 200px;
+  border: 1px solid#E1E1E1;
+  border-radius: 6px;
+  box-shadow: 0 5px 4px 5px #e1e1e1;
+  .forgot-password-form{
+    p{
+      margin-bottom: 0;
+    }
+    .title{
+      h2{
+        color: #F54B24;
+      }
+    }
+    .middle{
+      input{
+        margin-top: 4px;
+        border: 1px solid #E1E1E1;
+        border-radius: 4px;
+        &:focus{
+          outline: none;
+          border: 1px solid #F54B24;
+        }
+      }
+      .btn-next{
+        margin-left: 20px;
+        margin-bottom: 6px;
+        font-size: 25px;
+        color: #F54B24;
+      }
+      button{
+        margin-top: 6px;
+        border-radius: 4px;
+        background-color: #FFFFFF;
+        border: 1px solid #F54B24;
+        color: #F54B24;
+
+      }
+      .error{
+        font-size: 11px;
+        color: red;
+      }
+      .success{
+        color: green;
+        font-size: 11px;
+      }
+      .get-code{
+        text-decoration: none;
+        border: 1px solid #F54B24;
+        background-color: #FFFFFF;
+        color: #F54B24;
+        width: 70px;
+        height: 30px;
+        border-radius: 4px;
+        margin-top: 12px;
+      }
+    }
+    .footer-forgot{
+      margin-top: 30px;
+      margin-bottom: 20px;
+      button{
+        border-radius: 4px;
+        background-color: #FFFFFF;
+        border: 1px solid #F54B24;
+        color: #F54B24;
+        margin-right: 12px;
+      }
+    }
+  }
+}
